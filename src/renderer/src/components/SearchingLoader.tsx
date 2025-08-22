@@ -16,13 +16,13 @@ export const SearchingLoader = ({ label, className, contentClassName, icon }: TP
     <div
       className={StyleHelper.mergeStyles(
         'relative flex min-h-[52px] items-center justify-center overflow-hidden rounded-full px-0.5 py-0.5',
-        "before:absolute before:block before:aspect-square before:w-full before:animate-spin before:bg-[conic-gradient(from_0deg_at_50%_50%,#47BEFF_0%,#47BEFF00_100%)] before:content-['']",
+        "before:absolute before:block before:aspect-square before:w-full before:animate-spin before:bg-[conic-gradient(from_0deg_at_50%_50%,#2F41DB_0%,#2F41DB00_100%)] before:content-['']",
         className
       )}
     >
       <div
         className={StyleHelper.mergeStyles(
-          'relative z-[1] flex items-center gap-2.5 rounded-full bg-gray-800 px-6 py-3 text-sm text-blue',
+          'relative z-[1] flex items-center gap-2.5 rounded-full bg-gray-800 px-6 py-3 text-sm text-primary',
           contentClassName
         )}
       >
