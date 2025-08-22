@@ -49,7 +49,7 @@ export const BalanceChart = ({ balances, sortedBalances, className }: TProps) =>
 
     const othersAmount = sortedBalances.slice(4).reduce((acc, balance) => acc + balance.exchangeAmount, 0)
     const otherBar: TBar = {
-      color: '#47BEFF',
+      color: '#2F41DB',
       value: NumberHelper.currency(othersAmount, currency.label),
       name: t('othersTokens'),
       widthPercent: (othersAmount * 100) / balances.exchangeTotal,

@@ -9,6 +9,9 @@ export default {
   theme: {
     colors: {
       transparent: 'transparent',
+      primary: '#2F41DB',
+      background: '#FFFFFF',
+      foreground: '#000000',
       asphalt: {
         DEFAULT: '#FFFFFF',
       },
@@ -16,7 +19,7 @@ export default {
         DEFAULT: '#000',
       },
       neon: {
-        DEFAULT: '#314AF7',
+        DEFAULT: '#2F41DB',
       },
       green: {
         DEFAULT: '#2EBE81',
@@ -31,7 +34,7 @@ export default {
         700: '#7D4B93',
       },
       blue: {
-        DEFAULT: '#47BEFF',
+        DEFAULT: '#2F41DB',
       },
       orange: {
         DEFAULT: '#FE872F',
