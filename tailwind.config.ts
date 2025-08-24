@@ -18,6 +18,11 @@ export default {
       neon: {
         DEFAULT: '#314AF7',
       },
+      primary: {
+        DEFAULT: '#314AF7',
+        600: '#2335C5',
+        400: '#6174F7',
+      },
       green: {
         DEFAULT: '#2EBE81',
         700: '#345048',

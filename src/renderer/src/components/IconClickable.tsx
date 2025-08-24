@@ -93,7 +93,7 @@ const Base = ({
     <div
       {...props}
       className={StyleHelper.mergeStyles(
-        'flex h-fit flex-grow-0 flex-col items-center justify-center rounded transition-all',
+        'interactive-primary flex h-fit flex-grow-0 flex-col items-center justify-center rounded transition-all',
         {
           'gap-y-0.5 px-2 py-1': (size === 'sm' || size === 'xs') && !compacted,
           'gap-y-0.5 p-1': (size === 'sm' || size === 'xs') && compacted,
