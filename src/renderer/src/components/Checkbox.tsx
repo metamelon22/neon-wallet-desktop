@@ -21,10 +21,11 @@ export const Checkbox = forwardRef<HTMLButtonElement, TCheckboxProps>(
       <RadixCheckbox.Root
         ref={ref}
         className={StyleHelper.mergeStyles(
-          'flex max-h-[1.125rem] min-h-[1.125rem] min-w-[1.125rem] max-w-[1.125rem] items-center justify-center rounded-sm border-2',
+          'interactive-primary flex max-h-[1.125rem] min-h-[1.125rem] min-w-[1.125rem] max-w-[1.125rem] items-center justify-center rounded-sm border-2',
           {
-            'cursor-not-allowed border-gray-300': props.disabled,
-            'border-neon data-[state=checked]:bg-neon data-[state=unchecked]:bg-transparent': !props.disabled,
+            'cursor-not-allowed border-primary-400': props.disabled,
+            'border-primary-600 data-[state=checked]:bg-primary-600 data-[state=unchecked]:bg-transparent':
+              !props.disabled,
           },
           className
         )}

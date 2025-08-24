@@ -125,7 +125,7 @@ const Base = ({
   return (
     <div
       className={StyleHelper.mergeStyles(
-        'w-full gap-x-2.5 group-aria-[disabled=false]:cursor-pointer group-aria-[disabled=true]:cursor-not-allowed group-aria-[disabled=true]:opacity-50',
+        'interactive-primary w-full gap-x-2.5 group-aria-[disabled=false]:cursor-pointer group-aria-[disabled=true]:cursor-not-allowed group-aria-[disabled=true]:opacity-50',
         {
           'px-7': wide,
           'h-12 text-sm': !flat,

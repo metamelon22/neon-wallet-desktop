@@ -134,12 +134,12 @@ export const Input = forwardRef<HTMLInputElement, TInputProps>(
         <div
           aria-disabled={isDisabled}
           className={StyleHelper.mergeStyles(
-            'flex w-full cursor-text items-center gap-x-1.5 rounded bg-asphalt px-5 font-medium text-white outline-none ring-2 ring-transparent transition-colors placeholder:text-white/50 aria-disabled:cursor-not-allowed aria-disabled:opacity-50',
+            'flex w-full cursor-text items-center gap-x-1.5 rounded bg-asphalt px-5 font-medium text-white outline-none ring-2 ring-transparent transition-colors placeholder:text-white/50 hover:bg-primary-600 active:bg-primary-600 aria-disabled:cursor-not-allowed aria-disabled:bg-primary-400 aria-disabled:opacity-50',
             {
               'h-8.5 py-1.5 text-xs': compacted,
               'h-12 py-2 text-sm': !compacted,
               'ring-pink': !!errorMessage || error === true,
-              'focus:ring-neon': !errorMessage || error === false,
+              'focus:ring-primary-600': !errorMessage || error === false,
               'pl-3': !!leftIcon,
               'pr-3': isTypePassword || clearable || pastable,
             },
