@@ -6,6 +6,7 @@ import { Config } from 'tailwindcss'
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./src/**/*.{ts,tsx}'],
+  darkMode: ['class', 'media'],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -14,6 +15,9 @@ export default {
       },
       black: {
         DEFAULT: '#000',
+      },
+      primary: {
+        DEFAULT: '#2F41DB',
       },
       neon: {
         DEFAULT: '#314AF7',
@@ -59,6 +63,20 @@ export default {
         300: '#818D95', // mid
         200: '#C5D0D5',
         100: '#B0C0C8', //light
+      },
+      dark: {
+        primary: '#2F41DB',
+        neutral: {
+          900: '#0A0A0A',
+          800: '#171717',
+          700: '#2E2E2E',
+          600: '#404040',
+          500: '#525252',
+          400: '#737373',
+          300: '#A3A3A3',
+          200: '#D4D4D4',
+          100: '#E5E5E5',
+        },
       },
     },
     extend: {
